@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+        <title>Profile</title>
+        <style>
+            a {color: white;}        
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                color: white;
+            } 
+            h1 {
+                margin: 0 auto;
+                width: 100px;
+            }                
+            .flex_center {            
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;       
+            }        
+        </style>
+    </head>
+    <body>
+        <div>
+        <a href="/" title="Go to home page">
+            <img src="/images/home.png" alt="Go to home page" width="77.5" height="40.75">
+        </a>
+        </div>   
+        <div class="flex_center">                                
+            <form action="/logout">
+                <h1>Profile</h1><br />
+                <label>Username:{{username}}</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Logout" /><br /><br />
+            </form>
+            <form action="/profile" method="POST">               
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" maxlength="16" required /><br /><br />     
+                <label for="new_password">New password:</label>
+                <input type="password" id="new_password" name="new_password" placeholder="Password(8-16 characters)" maxlength="16" required /><br /><br />     
+                <label for="check_password">Check new password:</label>       
+                <input type="password" id="check_new_password" name="check_new_password" placeholder="Check new password" maxlength="16" required /><br /><br />                           
+                <input type="submit" value="Modify password" /><br /><br />
+                {{error}}
+            </form>
+        </div>    
+    </body>
+</html>

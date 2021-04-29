@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a00"
+  },
+  "full_name": "Card reader",
+  "category": "card_reader",
+  "price": "9.06"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a01"
+  },
+  "full_name": "Case",
+  "category": "case",
+  "price": "193.00"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a02"
+  },
+  "full_name": "CPU",
+  "category": "cpu",
+  "price": "4353.29"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a03"
+  },
+  "full_name": "Earphones",
+  "category": "earphones",
+  "price": "1050.74"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a04"
+  },
+  "full_name": "Fan",
+  "category": "fan",
+  "price": "133.00"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a05"
+  },
+  "full_name": "GPU",
+  "category": "gpu",
+  "price": "2074.91"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a06"
+  },
+  "full_name": "HDD",
+  "category": "hdd",
+  "price": "550.97"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a07"
+  },
+  "full_name": "Keyboard",
+  "category": "keyboard",
+  "price": "119.03"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a08"
+  },
+  "full_name": "Laptop",
+  "category": "laptop",
+  "price": "2419.28"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a09"
+  },
+  "full_name": "Microphone",
+  "category": "microphone",
+  "price": "9.81"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0a"
+  },
+  "full_name": "Monitor",
+  "category": "monitor",
+  "price": "2348.24"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0b"
+  },
+  "full_name": "Motherboard",
+  "category": "motherboard",
+  "price": "444.87"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0c"
+  },
+  "full_name": "Mouse",
+  "category": "mouse",
+  "price": "80.46"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0d"
+  },
+  "full_name": "Printer",
+  "category": "printer",
+  "price": "1124.44"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0e"
+  },
+  "full_name": "PSU",
+  "category": "psu",
+  "price": "337.09"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a0f"
+  },
+  "full_name": "RAM",
+  "category": "ram",
+  "price": "269.87"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a10"
+  },
+  "full_name": "Router",
+  "category": "router",
+  "price": "491.98"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a11"
+  },
+  "full_name": "Server",
+  "category": "server",
+  "price": "2631.54"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a12"
+  },
+  "full_name": "Speakers",
+  "category": "speakers",
+  "price": "336.99"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a13"
+  },
+  "full_name": "SSD",
+  "category": "ssd",
+  "price": "1367.10"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a14"
+  },
+  "full_name": "Switch",
+  "category": "switch",
+  "price": "680.81"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a15"
+  },
+  "full_name": "UPS",
+  "category": "ups",
+  "price": "1002.24"
+},{
+  "_id": {
+    "$oid": "607c18abcaf93b3a18715a16"
+  },
+  "full_name": "USB",
+  "category": "usb",
+  "price": "137.05"
+}]

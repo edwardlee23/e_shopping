@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+        <title>Login</title>
+        <style>
+            a {color: white;}        
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                color: white;
+            } 
+            h1 {
+                margin: 0 auto;
+                width: 100px;
+            }                
+            .flex_center {            
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;       
+            }        
+        </style>
+    </head>
+    <body>
+        <div>
+        <a href="/" title="Go to home page">
+            <img src="/images/home.png" alt="Go to home page" width="77.5" height="40.75">
+        </a>
+        </div>   
+        <div class="flex_center">                        
+            <form action="/login" method="POST">   
+                <h1>Login</h1><br />
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username" value="{{username}}" autocapitalize="off" maxlength="30" required /><br /><br />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" maxlength="16" required /><br /><br />
+                <a href="/forgotten_password">Forgotten password</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/create_account">Create account</a><br /><br />
+                <input type="submit" value="Login" /><br /><br />
+                {{error}}
+            </form>
+        </div>    
+    </body>
+</html>

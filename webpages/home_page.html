@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+        <title>Home page</title>
+        <style>     
+            a {color: white;}              
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                color: white;
+            }
+            p {padding-right: 200px;}
+            .row { /* Column container */
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;            
+            }     
+            .side { /* Sidebar/left column */
+                -ms-flex: 10%; /* IE10 */
+                flex: 10%;            
+            }
+            .main { /* Main Column */
+                -ms-flex: 90%; /* IE10 */
+                flex: 90%;            
+            }
+        </style>
+    </head>
+    <body>
+        <a href="/" title="Go to home page">
+            <img src="/images/home.png" alt="Go to home page" width="77.5" height="40.75" style="float: left;"/>
+        </a>
+        <a href="/login" title="Go to login">
+            <img src="/images/login.png" alt="Go to login" width="77.5" height="40.75" style="float: right;" />
+        </a>    
+        <div style="margin: 0 auto; width: 100px;">
+            <a href="/cart" title="Go to cart">
+            <img src="/images/cart.png" alt="Go to cart" width="65.75" height="47.75">
+            </a>
+        </div>
+        <div class="row">        
+            <div class="side">
+                <form action="/search_results">
+                    <input type="text" name="search" placeholder="Search" size="10" />
+                    <input type="submit" value="Search" />
+                </form><br />          
+                <a href="/products/card_reader">Card reader</a><br /><br />
+                <a href="/products/case">Case</a><br /><br />
+                <a href="/products/cpu">CPU</a><br /><br />
+                <a href="/products/earphones">Earphones</a><br /><br />
+                <a href="/products/fan">Fan</a><br /><br />
+                <a href="/products/gpu">GPU</a><br /><br />
+                <a href="/products/hdd">HDD</a><br /><br />
+                <a href="/products/keyboard">Keyboard</a><br /><br />
+                <a href="/products/laptop">Laptop</a><br /><br />
+                <a href="/products/microphone">Microphone</a><br /><br />
+                <a href="/products/monitor">Monitor</a><br /><br />
+                <a href="/products/motherboard">Motherboard</a><br /><br />
+                <a href="/products/mouse">Mouse</a><br /><br />
+                <a href="/products/printer">Printer</a><br /><br />
+                <a href="/products/psu">PSU</a><br /><br />
+                <a href="/products/ram">RAM</a><br /><br />
+                <a href="/products/router">Router</a><br /><br />
+                <a href="/products/server">Server</a><br /><br />
+                <a href="/products/speakers">Speakers</a><br /><br />
+                <a href="/products/ssd">SSD</a><br /><br />
+                <a href="/products/switch">Switch</a><br /><br />
+                <a href="/products/ups">UPS</a><br /><br />
+                <a href="/products/usb">USB</a>
+            </div>
+            <div class="main">
+                <h1>Welcome!</h1>                        
+                <p>Welcome to my e-shopping website!</p>
+                <p>The left side has search engine and various products, you can find products by search engine or click them.</p>
+                <p>The top left corner icon is home, you can click it to redirect this webpage.</p>
+                <p>The top center icon is cart, you can click it to see what you have added after you log in.</p>
+                <p>The top right corner icon is login or profile, you can click it to login , create account, reset or modify your password.</p>
+                <p>Wish you have a nice shopping experience here!</p>
+            </div>                
+        </div>            
+    </body>
+</html>
